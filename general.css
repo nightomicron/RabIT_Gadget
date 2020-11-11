@@ -1,0 +1,106 @@
+/*General settings of the page*/
+body {
+	font-family : "century gothic", "Lucida Sans Unicode", Arial;
+}
+
+/*header-menu beginning*/
+/*menu settings*/
+#menu{
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+	background: rgba(27, 81, 140, 1);
+	text-align: center;
+	color: white;
+	line-height: 50px;
+	font-size: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*general settings of the buttons in the menu*/
+.menuitem{
+	background: rgba(27, 81, 140, 1);
+	transition: background 0.5s;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*settings of the buttons in the menu in case of hovering*/
+.menuitem:hover{
+	background: rgba(61, 155, 233, 1);
+}
+
+/*settings of the users button*/
+#users{
+	position: absolute;
+	width: 120px;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+}
+
+/*settings of the advertisements buttons*/
+#ads{
+	position: absolute;
+	width: 180px;
+	height: 100%;
+	top: 0px;
+	left: 121px;
+	overflow: hidden;
+}
+
+/* settings of links, to override the default character color of links*/
+a{
+	color: white;
+}
+
+/*header-menu ending*/
+
+/*screen div definition*/
+#screen{
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	z-index:-1;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+/*table settings*/
+#main_table{
+	position: absolute;
+	top: 50px;
+	width: 1000px;
+	left: 0px;
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*settings of the first column*/
+#id_col{
+	width: 200px;
+}
+
+/*table row and column general settings*/
+th, td{
+	border: 1px solid black;
+	width: 800px;
+}
+
+/*specialized settings of the table rows*/
+.table_row{
+	background-color: white;
+}
+
+/*specialized settings of the table rows in case of hovering*/
+.table_row:hover{
+	background-color: rgba(61, 155, 233, 1);
+	color: white;
+}
